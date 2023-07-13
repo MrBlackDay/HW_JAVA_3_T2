@@ -14,17 +14,17 @@ public class Main {
         int refill = 2350; // Значение суммы пополнения счёта
         int bonus = 0; // Значние величены бонуса
 
-        if (refill>1000) {
-            bonus = refill/100;
-            account = account+refill+bonus;
+        if (refill > 1000) {
+            bonus = refill / 100;
+            account = account + refill + bonus;
         }
 
         //Вывод справочной информации пользователю
-        System.out.println ("+---------------------------+");
-        System.out.println ("| Сумма бонуса = " + bonus + "         |");
-        System.out.println ("+---------------------------+");
-        System.out.println ("| Сумма Вашего счёта = " + account + " |");
-        System.out.println ("+---------------------------+");
+        System.out.println("+---------------------------+");
+        System.out.println("| Сумма бонуса = " + bonus + "         |");
+        System.out.println("+---------------------------+");
+        System.out.println("| Сумма Вашего счёта = " + account + " |");
+        System.out.println("+---------------------------+");
 
     }
 }
